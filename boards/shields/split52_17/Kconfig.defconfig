@@ -1,0 +1,14 @@
+
+if SHIELD_SPLIT52_17_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "split52_17"
+
+endif
+
+if SHIELD_SPLIT52_17_LEFT || SHIELD_SPLIT52_17_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

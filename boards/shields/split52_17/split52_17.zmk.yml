@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: split52_17
+name: split52_17
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - split52_17_left
+  - split52_17_right
